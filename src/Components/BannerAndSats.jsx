@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react';
 
-export default function () {
-  return (
-    <div>
+const BannerAndSats = () => {
+    return (
+        <div>
       <div className="flex flex-col flex-1 max-w-screen-xl mx-auto px-4 sm:px-6 md:px-10 ">
         <div>
           <h1 className="text-5xl font-bold text-center pt-10">
@@ -78,5 +78,7 @@ export default function () {
         </div>
       </div>
     </div>
-  );
-}
+    );
+};
+
+export default BannerAndSats;

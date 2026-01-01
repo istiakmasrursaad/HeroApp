@@ -1,7 +1,8 @@
 import React from "react";
-import Bannerandstats from "../Components/bannerandstats";
+
 import { useLoaderData } from "react-router-dom";
 import AppCards from "../Components/Appcards";
+import BannerAndSats from "../Components/BannerAndSats";
 
 export default function Home() {
   const apps = useLoaderData();
@@ -10,7 +11,7 @@ export default function Home() {
 
   return (
     <div>
-      <Bannerandstats />
+      <BannerAndSats/>
       <div className="flex flex-col items-center">
         <div className="w-full max-w-screen-xl px-4 sm:px-6 md:px-10">
           <div className="text-center py-10">

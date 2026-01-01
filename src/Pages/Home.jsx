@@ -12,6 +12,7 @@ export default function Home() {
   return (
     <div>
       <BannerAndSats/>
+      
       <div className="flex flex-col items-center">
         <div className="w-full max-w-screen-xl px-4 sm:px-6 md:px-10">
           <div className="text-center py-10">

@@ -11,7 +11,7 @@ export default function Navbar() {
           src="/assets/logo.png"
           alt="Logo"
         />
-        <h1 className="font-bold ml-2 text-xl md:text-2xl gradcolor">
+        <h1 className="font-bold ml-2 text-xl md:text-2xl gradiantColor">
           <a href="/">HERO.IO</a>
         </h1>
       </div>

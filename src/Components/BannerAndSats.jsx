@@ -7,7 +7,7 @@ const BannerAndSats = () => {
         <div>
           <h1 className="text-5xl font-bold text-center pt-10">
             We Build <br className="pt-5" />
-            <span class="text-5xl gradcolor">Productive</span> App
+            <span class="text-5xl gradiantColor">Productive</span> App
           </h1>
           <p className="pt-5 text-[#627382] text-center">
             At HERO.IO ,we craft innovative apps designed to make everyday life
@@ -55,7 +55,7 @@ const BannerAndSats = () => {
         </div>
       </div>
       {/* {stats} */}
-      <div className="w-full flex flex-col  text-center text-white bggradcolor py-3">
+      <div className="w-full flex flex-col  text-center text-white bggradiantcolor  py-3">
         <h1 className=" text-3xl font-semibold pt-5">
           Trusted by Millions, Built for You
         </h1>

@@ -37,7 +37,7 @@ const Loader = () => {
 const StyledWrapper = styled.div`
   width: 100vw;
   height: 100vh;
-  background: #0f172a; /* Dark Elegant Background */
+  background: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -52,7 +52,8 @@ const StyledWrapper = styled.div`
   .svgbox {
     width: 250px;
     height: auto;
-    filter: drop-shadow(0 0 15px rgba(120, 75, 160, 0.4));
+    
+    filter: drop-shadow(0 0 10px rgba(120, 75, 160, 0.2));
   }
 
   path {
@@ -62,7 +63,8 @@ const StyledWrapper = styled.div`
   }
 
   .outline {
-    stroke: rgba(255, 255, 255, 0.05);
+  
+    stroke: rgba(0, 0, 0, 0.05);
   }
 
   .main-path {
@@ -72,14 +74,14 @@ const StyledWrapper = styled.div`
   }
 
   .loading-text {
-    color: white;
+    color: #334155; 
     font-family: 'Inter', sans-serif;
     letter-spacing: 4px;
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 500;
     text-transform: uppercase;
     animation: pulse 1.5s ease-in-out infinite;
-    opacity: 0.6;
+    opacity: 0.8;
   }
 
   @keyframes dash {
